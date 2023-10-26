@@ -4,7 +4,7 @@
     - [x]  Introdução ao TypeScript
     - [ ]  Programação Orientada a Objetos com TypeScript
     - [ ]  Desafio de Projeto - Construindo um App Simples de Banco com TypeScript
-    - [x]  Desafios de Código - Formação TypeScript
+    - [x]  [Desafios de Código - Formação TypeScript](https://github.com/KayllaneGPina/formacao-typescript/tree/main/Desafio%20de%20C%C3%B3digo)
 2. Introdução ao React com TypeScript 
     - [ ]  Introdução ao React com TypeScript
     - [ ]  Criando Páginas com React e TypeScript
