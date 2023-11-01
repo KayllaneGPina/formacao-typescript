@@ -1,42 +1,27 @@
-// Introdução a POO
-/*const user = {
-    name: 'Kayllane',
-    age: 21,
-    showName(){
-        console.log(this.name)
-    }
-}
+import { CompanyAccount } from './Class/CompanyAccount';
+import { PeopleAccount } from './Class/PeopleAccount';
+import { ElderlyAccount } from './Class/ElderlyAccount';
 
-const otherUser = {
-    name: 'Lucas',
-    age: 63,
-    showName(){
-        console.log(this.name)
-    }
-}
+const companyAccount: CompanyAccount = new CompanyAccount('A', 1);
+companyAccount.deposit(200);
+companyAccount.getLoan(150);
+companyAccount.getBalance();
+companyAccount.withdraw(36);
+companyAccount.getBalance();
+console.log(companyAccount);
 
-console.log(user);
-console.log(otherUser);
-user.showName();
-otherUser.showName();
-console.log(user.name);
-console.log(user.age);*/
+console.log('----');
 
+const peopleAccount: PeopleAccount = new PeopleAccount(2, 'B', 2); 
+peopleAccount.deposit(10);
+peopleAccount.withdraw(25); // - Testing whether a withdrawal amount greater than what exists in the account is valid
+peopleAccount.getBalance();
+console.log(peopleAccount);
 
-// class User {
-//     name: string 
-//     age: number 
+console.log('---');
 
-//     constructor (name: string, age: number) {
-//         this.name = name
-//         this.age = age
-//     }
-
-//     showName = () => {console.log(this.name)}
-// }
-
-// const user: User = new User('Maria', 23);
-// user.showName();
-
-// const otherUser: User = new User('Joao', 30)
-// otherUser.showName();
+const elderlyAccount: ElderlyAccount = new ElderlyAccount('C', 3);
+elderlyAccount.getRetirement(100);
+elderlyAccount.withdraw(20);
+elderlyAccount.getBalance();
+console.log(elderlyAccount);

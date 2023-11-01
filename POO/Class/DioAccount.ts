@@ -1,40 +1,47 @@
 // Classe Abstrata
 export abstract class DioAccount {
-    private name: string
+    private readonly name: string
     private readonly accountNumber: number
-    balance: number = 0
+    private balance: number = 0
     private status: boolean = true
 
     constructor(name: string, accountNumber: number) {
         this.name = name
         this.accountNumber = accountNumber
+        
     }
 
-    // Getters e Setters
-    setName = (name: string): void => {
-        this.name = name
-        console.log('Nome alterado com sucesso!')
+    public getName = (): void => {
+        console.log(this.name) 
     }
 
-    getName = (): string => {
-        return this.name
-    }
-
-    deposit = (): void => {
-        if(this.validateStatus()) {
-        console.log(`${this.name} você depositou!`)
+    public deposit(value: number): void {
+        if (this.validateStatus()) {
+            this.balance += value;
+            console.log(`Deposit made successfully! New balance: $${this.balance}`);
         }
     }
 
-    withdraw = (): void => {console.log(`${this.name} você sacou!`)}
+    public withdraw = (value: number): void => {
+        if (this.validateStatus() && this.balance > 0) {
+            if (value < this.balance) {
+                this.balance -= value
+                console.log('Withdrawal made successfully!')
+            } else {
+                console.log('Invalid balance!')
+            }
+        } else {
+            console.log('Invalid balance!')
+        }
+    }
 
-    getBalance = (): void => {console.log(`R$${this.balance} reais de saldo`)}
+    public getBalance = (): void => { console.log(`You have a balance of $${this.balance}`) }
 
-    private validateStatus = (): boolean => {
+    public validateStatus = (): boolean => {
         if (this.status) {
             return this.status
         }
 
-        throw new Error('Conta inválida')
+        throw new Error('Invalid account')
     }
 }
