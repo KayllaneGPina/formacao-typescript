@@ -7,7 +7,7 @@
     - [x]  [Desafios de Código - Formação TypeScript](https://github.com/KayllaneGPina/formacao-typescript/tree/main/Desafio%20de%20C%C3%B3digo)
 2. Introdução ao React com TypeScript 
     - [x]  Introdução ao React com TypeScript
-    - [ ]  Criando Páginas com React e TypeScript
+    - [x]  Criando Páginas com React e TypeScript
     - [ ]  Desafio de Projeto - Criando uma HomePage com React
     - [ ]  Desafios de Código Intermediários I - Formação TypeScript
 3. Conceitos Avançados de React com TypeScript 
