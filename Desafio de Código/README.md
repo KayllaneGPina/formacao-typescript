@@ -65,3 +65,57 @@ Seu programa deve imprimir uma linha, contendo um número inteiro, representando
 |Entrada|Saída|
 |-|-|
 |52 <br> 14 <br> 18|20|
+---
+
+## Desafio 04 - Arrays Pares
+Seu José possui uma lista de entregas das suas mercadorias e cada uma delas possui um número de identificação. As entregas mais urgentes são as que possuem o número de identificação PAR. Porém, seu José é muito atarefado e pediu sua ajuda para criar um programa que, de acordo com uma lista, mostrasse apenas as entregas urgentes (pares). Utilizando o seu conhecimento sobre Arrays, uma estrutura de dados que armazena uma coleção de dados em um bloco de memória, crie um programa que, dado a lista: **{2, 3, 5, 7, 11, 13, 18, 34}**, **retorne como resultado apenas os números pares dessa array.**
+
+### Entrada
+A entrada consiste em um Array de números inteiros positivos. ([2, 3, 5, 7, 11, 13, 18, 34])
+
+### Saída
+A saída do desafio equivale aos números pares do Array, como mostra o exemplo a baixo, porém com o Array do enunciado:
+
+|Entrada|Saída|
+|-|-|
+|8, 9, 11, 13, 16, 17, 23, 24|8 <br> 16 <br> 24|
+
+---
+
+## Desafio 05 - Teorema da Divisão Euclidiana
+Você recebeu desafio de desenvolver um programa que calcule o quociente e o resto da divisão de dois números inteiros. Não se esqueça que o quociente e o resto da divisão de um inteiro a por um inteiro não-nulo b são respectivamente os únicos inteiros q e r tais que:
+
+**0 ≤ r < |b|**
+Se **r < 0: r = r - |b|**
+**a = b × q + r**
+**q = ( a - r ) / b**
+
+Caso você não saiba, o teorema que garante a existência e a unicidade dos inteiros q e r é conhecido como ‘Teorema da Divisão Euclidiana’ ou ‘Algoritmo da Divisão’.
+
+**  **|b| (Módulo / Valor absoluto):** É o valor representado de forma positiva;
+
+### Entrada
+A entrada é composta por dois números inteiros **a** e **b** (-1.000 ≤ a, b < 1.000).
+
+### Saída
+Imprima o quociente q seguido pelo resto r da divisão de **a** por **b**, considerando as regras apresentadas a cima.
+
+|Entrada|Saída|
+|-|-|
+|7 3|2 1|
+
+---
+
+## Desafio 06 - Coordenadas de um Ponto
+Leia 2 valores com uma casa decimal (x e y), que devem representar as coordenadas de um ponto em um plano. A seguir, determine qual o quadrante ao qual pertence o ponto, ou se está sobre um dos eixos cartesianos ou na origem (x = y = 0). Se o ponto estiver na origem, escreva a mensagem “Origem”. Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
+
+### Entrada
+A entrada contem as coordenadas de um ponto.
+
+### Saída
+A saída deve apresentar o quadrante em que o ponto se encontra.
+
+|Entrada|Saída|
+|-|-|
+|4.5 -2.2|Q4|
+|0.1 0.1|Q1|

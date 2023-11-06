@@ -8,8 +8,8 @@
 2. Introdução ao React com TypeScript 
     - [x]  Introdução ao React com TypeScript
     - [x]  Criando Páginas com React e TypeScript
-    - [ ]  Desafio de Projeto - Criando uma HomePage com React
-    - [ ]  Desafios de Código Intermediários I - Formação TypeScript
+    - [x]  [Desafio de Projeto - Criando uma HomePage com React](https://github.com/KayllaneGPina/formacao-typescript/tree/main/TSReact/my-app-ts)
+    - [x]  Desafios de Código Intermediários I - Formação TypeScript
 3. Conceitos Avançados de React com TypeScript 
     - [ ]  Manipulando Estado e Consumindo APIs no React com TypeScript
     - [ ]  Trabalhando com Rotas no React
