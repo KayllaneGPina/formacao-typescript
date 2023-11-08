@@ -119,3 +119,62 @@ A saída deve apresentar o quadrante em que o ponto se encontra.
 |-|-|
 |4.5 -2.2|Q4|
 |0.1 0.1|Q1|
+
+---
+
+## Desafio 07 - Réveillon de Copacabana
+O Réveillon é uma das festas mais esperadas do hotel Copacabana Palace. Mesmo sendo restrito para um seleto grupo de pessoas, o salão fica abarrotado de gente e muitas vezes os garçons não dão conta de atender a todos da mesma maneira. 
+
+Os convidados que sentam nas pontas das mesas são os privilegiados, pois são atendidos com somente um pedido, mas os demais precisam sempre pedir duas vezes, pois os garçons não conseguem dar a mesma atenção a eles. Além disso, há uma superstição de entrada de ano que diz que, se não houver um número par de pessoas que não sentam nas pontas, o próximo ano será um desastre.
+
+Portanto, sua tarefa é determinar a soma da quantidade de pedidos de cada um para saber se vale a pena ir ao Réveillon de Copacabana ou se é melhor ficar em casa e assistir ao Show da Virada.
+
+### Entrada
+A entrada é composta por **T** (1 ≤ **T** ≤ 100) indicando a quantidade de casos de teste e então, **T** inteiros **N** (3 ≤ N ≤ 104), indicando a quantidade de pessoas. A mesa é retangular e haverá pelo menos e no máximo uma pessoa em uma das pontas, isto é, se uma ponta estiver vazia, a outra deve ser ocupada, ou senão, as duas pontas estarão ocupadas, mas o número de pessoas que não estão nas pontas sempre será par. O final da entrada é indicado por **T = 0**.
+
+### Saída
+Seu programa deverá imprimir a soma da quantidade de pedidos de cada pessoa. Não haverá linha em branco entre os casos de teste.
+|Entrada|Saída|
+|-|-|
+|5|6|
+|4|10|
+|6|14|
+|8|18|
+|10|22|
+|12||
+|0||
+
+---
+
+## Desafio 08 - Pink e Cérebro
+Pink e Cérebro dividem um apartamento e estão juntos 24h por dia desde o começo da pandemia. Para passar o temp, Pink cria problemas matemáticos para Cérebro resolver, o último deles foi uma lista de números com a seguinte pergunta: quantos números da lista são múltiplos de **2**, **3**, **4** e **5**?
+
+Apesar de parecer simples, porém, quando a lista contém muitos números, Cérebro se confunde e acaba errando alguns cálculos.
+
+Ajude Cérebro a resolver o desadio de Pink.
+
+### Entrada
+A primeira linha da entrada consiste em um inteiro **N** (1 ≤ **N** ≤1000), representando a quantidade de números na lista de Pink.
+
+A segunda linha contém **N** inteiros Li (1 ≤ **Li** ≤ 100), representando os números da lista de Pink.
+
+### Saída
+Imprima a quantidade de números múltiplos de **2**, **3**, **4** e **5** presentes na lista. Observe a formatação da saída nos exemplos, pois ela deve ser seguida rigorosamente.
+|Entrada|Saída|
+|-|-|
+|5 <br> 2 5 4 20 10|4 Multiplo(s) de 2 <br> 0 Multiplo(s) de 3 <br> 2 Multiplo(s) de 4 <br> 3 Multiplo(s) de 5|
+
+---
+
+## Desafio 09 - Quadrado e ao Cubo
+Você terá o desafio de escrever um programa que leia um valor inteiro N (1 < N < 1000). Este N é a quantidade de linhas de saída que serão apresentadas na execução do programa.
+
+### Entrada
+O arquivo de entrada contém um número inteiro positivo N.
+
+### Saída
+Imprima a saída conforme o exemplo fornecido.
+
+|Entrada|Saída|
+|-|-|
+|5|1 1 1 <br> 2 4 8 <br> 3 9 27 <br> 4 16 64 <br> 5 25 125|

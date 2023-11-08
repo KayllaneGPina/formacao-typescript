@@ -1,11 +1,15 @@
 import { Center, Button } from "@chakra-ui/react"
-import { login } from "../../Services/login";
+import { MouseEventHandler } from "react"
 
-export const WelcomeButton = () => {
+interface IDButton {
+  onClick:  MouseEventHandler
+}
+
+export const WelcomeButton = ({ onClick}: IDButton) => {
   return (
     <Center>
       <Button
-        onClick={login}
+      onClick={onClick}
         colorScheme='teal'
         size='sm'
         width='20%'
