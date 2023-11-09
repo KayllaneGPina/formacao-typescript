@@ -12,7 +12,7 @@
     - [x]  [Desafios de Código Intermediários I - Formação TypeScript](https://github.com/KayllaneGPina/formacao-typescript/tree/main/Desafio%20de%20C%C3%B3digo)
 3. Conceitos Avançados de React com TypeScript 
     - [x]  Manipulando Estado e Consumindo APIs no React com TypeScript
-    - [ ]  Trabalhando com Rotas no React
+    - [x]  Trabalhando com Rotas no React
     - [ ]  Manipulando Estados Globais No React
     - [ ]  Local Storage com React
     - [ ]  Desafio de Projeto - Criando a Página Com os Detalhes do Usuário Com React
